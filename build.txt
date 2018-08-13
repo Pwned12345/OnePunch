@@ -1,3 +1,5 @@
 author = Pwn3d
-version = 0.103
+version = 0.103.1
 displayName = One Punch
+hideCode = true
+hideResources = true
