@@ -1,3 +1,0 @@
-author = Pwn3d
-version = 0.103
-displayName = One Punch
