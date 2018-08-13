@@ -26,7 +26,6 @@ namespace OnePunch.Items
 			item.autoReuse = true;
 			item.axe = 100;
 			item.pick = 500;
-			item.hammer = 500;
 			item.crit = 100;
 			item.value = 5;
 		}

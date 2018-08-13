@@ -20,7 +20,7 @@ namespace OnePunch.Items
 			item.value = 5;
 			item.rare = 13;
 			item.accessory = true;
-			item.defense = 10000;
+			item.defense = 50;
 		}
 		//these wings use the same values as the solar wings
 		public override void UpdateAccessory(Player player, bool hideVisual)

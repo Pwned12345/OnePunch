@@ -31,11 +31,11 @@ namespace OnePunch.Items
 		public override void VerticalWingSpeeds(Player player, ref float ascentWhenFalling, ref float ascentWhenRising,
 			ref float maxCanAscendMultiplier, ref float maxAscentMultiplier, ref float constantAscend)
 		{
-			ascentWhenFalling = 0.85f;
-			ascentWhenRising = 0.15f;
-			maxCanAscendMultiplier = 1f;
-			maxAscentMultiplier = 3f;
-			constantAscend = 0.135f;
+			ascentWhenFalling = 100f;
+			ascentWhenRising = 100f;
+			maxCanAscendMultiplier = 100f;
+			maxAscentMultiplier = 100f;
+			constantAscend = 100f;
 		}
 
 		public override void HorizontalWingSpeeds(Player player, ref float speed, ref float acceleration)

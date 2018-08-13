@@ -35,6 +35,7 @@ namespace OnePunch.Items
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.DirtBlock, 1);
 			recipe.AddIngredient(ItemID.LunarBar, 1);
+			recipe.AddIngredient(null, "Punch2");
 			recipe.AddTile(null, "OPM");
 			recipe.SetResult(this);
 			recipe.AddRecipe();
