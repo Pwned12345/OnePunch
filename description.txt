@@ -1,7 +1,17 @@
 bored so made random stuff
 
-~use dirt block on guide to check recipes
+~use dirt block on guide to check all recipes, if it doesn't show up, saitama sells it
 
-~items that require stone blocks aren't created to be balanced/used for normal playthroughs
+~stone blocks included in recipes for items to show that they weren't created to be balanced/used for normal playthroughs (but free feel to)
 
-~having the op punch weapon in your inventory allows Saitama to move into your world
+~having the opm music box in your inventory allows Saitama to move into your world
+
+--
+
+v0.103 [8/14/2018]
+~ Changed minor things like art and made a changelog cause why not
+~ Added Saitama Doll
+
+--
+
+Created on [8/12/2018]

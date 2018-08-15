@@ -18,7 +18,7 @@ namespace OnePunch.Items
 			item.width = 22;
 			item.height = 20;
 			item.value = 5;
-			item.rare = 13;
+			item.rare = 10;
 			item.accessory = true;
 			item.defense = 50;
 		}

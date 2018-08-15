@@ -32,7 +32,7 @@ namespace OnePunch.NPCs
 			NPCID.Sets.ExtraFramesCount[npc.type] = 9;
 			NPCID.Sets.AttackFrameCount[npc.type] = 4;
 			NPCID.Sets.DangerDetectRange[npc.type] = 2000;
-			NPCID.Sets.AttackType[npc.type] = 0;
+			NPCID.Sets.AttackType[npc.type] = 1;
 			NPCID.Sets.AttackTime[npc.type] = 1;
 			NPCID.Sets.AttackAverageChance[npc.type] = 100;
 			NPCID.Sets.HatOffsetY[npc.type] = 4;
@@ -64,7 +64,7 @@ namespace OnePunch.NPCs
 				{
 					for (int j = 0; j < player.inventory.Length; j++)
 					{
-						if (player.inventory[j].type == mod.ItemType("Punch"))
+						if (player.inventory[j].type == mod.ItemType("OPM"))
 						{
 							return true;
 						}
@@ -146,9 +146,9 @@ namespace OnePunch.NPCs
 
 		public override void SetupShop(Chest shop, ref int nextSlot)
 		{
-			shop.item[nextSlot].SetDefaults(mod.ItemType("Weights"));
+			shop.item[nextSlot].SetDefaults(mod.ItemType("Punch1"));
 			nextSlot++;
-			shop.item[nextSlot].SetDefaults(mod.ItemType("Dirtblock"));
+			shop.item[nextSlot].SetDefaults(mod.ItemType("SaitamaDoll"));
 		}
 		
 		public override void TownNPCAttackStrength(ref int damage, ref float knockback)
@@ -160,7 +160,7 @@ namespace OnePunch.NPCs
 		public override void TownNPCAttackCooldown(ref int cooldown, ref int randExtraCooldown)
 		{
 			cooldown = 1;
-			randExtraCooldown = 1;
+			randExtraCooldown = 0;
 		}
 
 		public override void TownNPCAttackProj(ref int projType, ref int attackDelay)
@@ -171,7 +171,12 @@ namespace OnePunch.NPCs
 
 		public override void TownNPCAttackProjSpeed(ref float multiplier, ref float gravityCorrection, ref float randomOffset)
 		{
-			multiplier = 50f;
+			multiplier = 20f;
+		}		
+
+         public virtual void TownNPCAttackShoot(ref bool inBetweenShots)
+		{
+			inBetweenShots = true; 
 		}		
 	}
 }

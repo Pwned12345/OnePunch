@@ -21,7 +21,7 @@ namespace OnePunch.Items
 			item.useStyle = 3;
 			item.knockBack = 1;
 			item.value = 10003;
-			item.rare = 13;
+			item.rare = 1;
 			item.UseSound = SoundID.Item14;
 			item.autoReuse = false;
 			item.axe = 12;
