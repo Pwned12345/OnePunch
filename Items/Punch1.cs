@@ -29,15 +29,5 @@ namespace OnePunch.Items
 			item.crit = 30;
 			item.value = 10000;
 		}
-
-		public override void AddRecipes()
-		{
-			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.DirtBlock, 1);
-			recipe.AddIngredient(ItemID.GoldCoin, 1);
-			recipe.AddTile(null, "OPM");
-			recipe.SetResult(this);
-			recipe.AddRecipe();
-		}
 	}
 }

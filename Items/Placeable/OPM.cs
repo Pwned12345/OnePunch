@@ -23,7 +23,6 @@ namespace OnePunch.Items.Placeable
 			item.height = 24;
 			item.rare = 4;
 			item.value = 100000;
-			item.accessory = true;
 		}
 		
 		public override void AddRecipes()

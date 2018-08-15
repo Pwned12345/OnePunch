@@ -4,12 +4,12 @@ using Terraria.ModLoader;
 
 namespace OnePunch.Items
 {
-	public class SaitamaDoll : ModItem
+	public class GenosDoll : ModItem
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Saitama Doll");			
-			Tooltip.SetDefault("50% bonus melee damage, significantly reduced non melee damage");
+			DisplayName.SetDefault("Genos Doll");			
+			Tooltip.SetDefault("50% bonus magic damage, significantly reduced non magic damage, +100 mana");
 		}
 
 		public override void SetDefaults()
@@ -19,16 +19,17 @@ namespace OnePunch.Items
 			item.value = 10000000;
 			item.rare = 5;
 			item.accessory = true;
-			item.defense = 25;
+			item.defense = 15;
 		}		
 		
 		public override void UpdateAccessory(Player player, bool hideVisual)
 		{
-			player.meleeDamage *= 1.5f;
+			player.meleeDamage *= 0.0f;
 			player.thrownDamage *= 0.0f;
 			player.rangedDamage *= 0.0f;
-			player.magicDamage *= 0.0f;
+			player.magicDamage *= 1.5f;
 			player.minionDamage *= 0.0f;
+			player.statManaMax2 += 100;
 		}
 	}
 }

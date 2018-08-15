@@ -149,6 +149,14 @@ namespace OnePunch.NPCs
 			shop.item[nextSlot].SetDefaults(mod.ItemType("Punch1"));
 			nextSlot++;
 			shop.item[nextSlot].SetDefaults(mod.ItemType("SaitamaDoll"));
+			nextSlot++;
+			shop.item[nextSlot].SetDefaults(mod.ItemType("GenosLaser1"));
+			nextSlot++;
+			shop.item[nextSlot].SetDefaults(mod.ItemType("GenosDoll"));			
+			nextSlot++;
+			shop.item[nextSlot].SetDefaults(mod.ItemType("TatsumakiDoll"));			
+			nextSlot++;
+			shop.item[nextSlot].SetDefaults(mod.ItemType("LimitBreaker"));			
 		}
 		
 		public override void TownNPCAttackStrength(ref int damage, ref float knockback)

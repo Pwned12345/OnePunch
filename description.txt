@@ -1,10 +1,18 @@
 bored so made random stuff
 
-~use dirt block on guide to check all recipes, if it doesn't show up, saitama sells it
+~use dirt block on guide to check all recipes, if it doesn't show up, Saitama sells it
 
-~stone blocks included in recipes for items to show that they weren't created to be balanced/used for normal playthroughs (but free feel to)
+~stone blocks included in recipes for items to show that they weren't created to be balanced/used for normal playthroughs (but free feel to use them anyway)
 
 ~having the opm music box in your inventory allows Saitama to move into your world
+
+--
+
+v0.104 [8/15/2018]
+~ Added Genos Doll
+~ Added Tatsumaki Doll
+~ Added Genos Laser Alpha and Beta
+~ Added Limit Breaker
 
 --
 
