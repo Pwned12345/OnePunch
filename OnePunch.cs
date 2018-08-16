@@ -29,6 +29,7 @@ namespace OnePunch
 				// Main.music[MusicID.Dungeon] = GetMusic("Sounds/Music/DriveMusic");
 				// Register a new music box
 				AddMusicBox(GetSoundSlot(SoundType.Music, "Sounds/Music/OPM"), ItemType("OPM"), TileType("OPM"));
+				AddMusicBox(GetSoundSlot(SoundType.Music, "Sounds/Music/Despacito"), ItemType("Alexa"), TileType("Alexa"));
 			}
 		}			
 	}
